@@ -82,7 +82,7 @@ function App() {
   let contractCodeHash: string = "5915d49d72ad7efe1ec121f9145c51c2da00c5f06491e6b0c7808d8cf6413c5c";
 
   const getClient = async () => {
-    const nodeRpcAddress : string = "http://20.63.36.149:9091";
+    const nodeRpcAddress : string = "https://lior.node.scrtlabs.com";
     const client = await SecretNetworkClient.create({
       grpcWebUrl: nodeRpcAddress,
       chainId: chainId,
