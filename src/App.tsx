@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { ToastContainer, toast } from 'react-toastify';
-import { Wallet, SecretNetworkClient, fromUtf8 } from "secretjs";
+import { SecretNetworkClient, fromUtf8 } from "secretjs";
 import 'react-toastify/dist/ReactToastify.css';
 import type { ReactElement } from "react";
 
